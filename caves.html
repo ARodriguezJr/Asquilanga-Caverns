@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="caveStyles.css">
+</head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div>
+    <h3>Project #2 - Asqwilanga Cave Traversal</h3>
+    <p>Created by: Alberto Rodriguez</p>
+    <p>CS 335 - Professor Siska</p>
+</div>
+
+<canvas id="grid" width="1000" height="1000"></canvas>
+
+<script src="drawCave.js"></script>
+
+<script>
+
+var canvas = document.getElementById( "grid" );
+var context = canvas.getContext( "2d" );
+
+startNavigatingCave(context);
+
+
+</script>
+
+</body>
+</html>
